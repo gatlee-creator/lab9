@@ -72,6 +72,21 @@ void unorderedArrayListType::remove(int removeItem)
     }
 } //end remove
 
+void unorderedArrayListType::removeAt(int location)
+{
+    int endPos; 
+      //first do a check to make sure we have valid value 
+    if (location < 0 || location >= length)
+        cout << "The location of the item to be removed "
+             << "is out of range." << endl;
+    else if(location == 0){
+        //at beginning of list we can swap last element to save time O(1)
+        endPos = listSize(); 
+        
+    }
+
+}
+
 void unorderedArrayListType::replaceAt(int location, int repItem)
 {
     if (location < 0 || location >= length)

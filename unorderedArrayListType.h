@@ -11,6 +11,7 @@ public:
     void replaceAt(int location, int repItem);
     int seqSearch(int searchItem) const;
     void remove(int removeItem);
+    void removeAt(int location);
 
     unorderedArrayListType(int size = 100);
       //Constructor
