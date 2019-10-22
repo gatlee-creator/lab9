@@ -35,10 +35,10 @@ int main()
     cout << "LIST 1: using remove to remove 6." << endl;
     arrayListPtr->remove(6); 
     arrayListPtr->print(); 
-
-    // cout << "Calling listSize" << endl;
-    // cout << list1.listSize() << endl;
-    
+    cout << "LIST 1: using removeAt to remove element at beginning of list."
+         << "Last element should be in place of first." << endl;
+    arrayListPtr->removeAt(0);
+    arrayListPtr->print();     
     
 
 

@@ -56,7 +56,7 @@ public:
       //               If the list is full, an appropriate
       //               message is displayed.
 
-    void removeAt(int location);
+    virtual void removeAt(int location);
       //Function to remove the item from the list at the
       //position specified by location
       //Postcondition: The list element at list[location] is

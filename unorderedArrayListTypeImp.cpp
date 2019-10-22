@@ -82,7 +82,6 @@ void unorderedArrayListType::removeAt(int location)
              << "is out of range." << endl;
     else if(location == 0){
         //at beginning of list we can swap last element to save time 
-
         endPos = listSize() - 1; //get last index 
         retrieveAt(endPos, swap); //get the value at the last index
         replaceAt(firstPos, swap); 
