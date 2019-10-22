@@ -86,9 +86,13 @@ void unorderedArrayListType::removeAt(int location)
         endPos = listSize() - 1; //get last index 
         retrieveAt(endPos, swap); //get the value at the last index
         replaceAt(firstPos, swap); 
-        length -= 1;  //adjust the length 
-       
-        
+        length--;  //adjust the length 
+    } else {
+        //shift the entire array if not at the beginning 
+        for (int i = location; i < length - 1; i++)
+            list[i] = list[i+1];
+
+        length--;
     }
 
 }
