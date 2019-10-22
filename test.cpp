@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 
+    //THESE NEED TO BE TESTED THROUGH A POINTER!!!!
     cout << "LIST 1: creating list1 object of unorderedArrayListType of size 15" << endl;
     unorderedArrayListType list1(15); 
     cout << "LIST 1: list1 will be testing all the pure virtual functions" << endl;
@@ -33,6 +34,10 @@ int main()
     cout << "LIST 1: using remove to remove 6." << endl;
     list1.remove(6); 
     list1.print(); 
+        
+    // cout << "Calling listSize" << endl;
+    // cout << list1.listSize() << endl;
+    
     
 
 
