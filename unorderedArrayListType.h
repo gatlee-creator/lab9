@@ -13,6 +13,7 @@ public:
     int seqSearch(int searchItem) const;
     void remove(int removeItem);
     void removeAt(int location);
+    void removeAll(int removeItem); 
 
     unorderedArrayListType(int size = 100);
       //Constructor

@@ -104,6 +104,8 @@ public:
       //Postcondition: If removeItem is found in the list,
       //               it is removed from the list and
       //               length is decremented by one.
+    
+    virtual void removeAll(int removeItem) = 0; 
 
     arrayListType(int size = 100);
       //Constructor

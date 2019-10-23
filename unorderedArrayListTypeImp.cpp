@@ -84,6 +84,18 @@ void unorderedArrayListType::remove(int removeItem)
     }
 } //end remove
 
+void unorderedArrayListType::removeAll(int removeItem)
+{
+    int count = 0; 
+    //run through get a count of remove Item
+    for(int i = 0; i < length; i++)
+        if(list[i] == removeItem)
+            count++; 
+    //run a for loop with the length being the count
+    for(int i = 0; i < count; i++)
+       remove(removeItem);
+}
+
 void unorderedArrayListType::removeAt(int location)
 {
     int endPos, swap; 

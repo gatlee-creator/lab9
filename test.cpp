@@ -42,6 +42,14 @@ int main()
     cout << "LIST 1: using insertFirst to insert 46 at the beginning of the list." << endl;
     arrayListPtr->insertFirst(46);
     arrayListPtr->print(); 
+    cout << "LIST 1: adding 3 more occurences of number 4" << endl;
+    arrayListPtr->insertEnd(4);
+    arrayListPtr->insertFirst(4);
+    arrayListPtr->insertEnd(4);
+    arrayListPtr->print();
+    cout << "LIST 1: calling removeAll to remove all 4's" << endl;
+    arrayListPtr->removeAll(4);
+    arrayListPtr->print();
     
 
 
