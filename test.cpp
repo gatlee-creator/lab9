@@ -39,6 +39,9 @@ int main()
          << "Last element should be in place of first." << endl;
     arrayListPtr->removeAt(0);
     arrayListPtr->print();     
+    cout << "LIST 1: using insertFirst to insert 46 at the beginning of the list." << endl;
+    arrayListPtr->insertFirst(46);
+    arrayListPtr->print(); 
     
 
 
