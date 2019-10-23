@@ -23,6 +23,19 @@ void unorderedArrayListType::insertAt(int location,
     }
 } //end insertAt
 
+void unorderedArrayListType::insertFirst(int insertItem)
+{
+    const int firstPos = 0;
+
+    if(length >= maxSize)
+        cout << "Cannot insert in a full list." << endl;
+    else
+    {
+        list[firstPos] = insertItem;
+        length++;
+    }
+} //end insertFirst 
+
 void unorderedArrayListType::insertEnd(int insertItem)
 {
     if (length >= maxSize)  //the list is full

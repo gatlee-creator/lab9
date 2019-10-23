@@ -7,6 +7,7 @@ class unorderedArrayListType: public arrayListType
 {
 public:
     void insertAt(int location, int insertItem);
+    void insertFirst(int insertItem);
     void insertEnd(int insertItem);
     void replaceAt(int location, int repItem);
     int seqSearch(int searchItem) const;
