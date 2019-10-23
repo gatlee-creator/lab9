@@ -48,6 +48,13 @@ public:
       //               If the list is full or location is
       //               out of range, an appropriate message
       //               is displayed.
+    
+    virtual void insertFirst(int insertItem) = 0; 
+    //Function to insert insertItem at the beginning of
+    //the list. Note that is an abstract function. 
+    //Postcondition: list[firstPos] = insertItem; 
+    //If the list is full, an appropriate message
+    //is displayed 
 
     virtual void insertEnd(int insertItem) = 0;
       //Function to insert insertItem an item at the end of
