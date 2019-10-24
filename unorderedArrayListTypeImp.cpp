@@ -1,3 +1,12 @@
+/*
+    Name: Graham Atlee
+    Course: csc1720
+    Date: 10/24/19
+    Location of program: ~/csc1720/Labs/lab9
+
+    This is implemenation code for methods in the unordedArrayListType.
+    These functions override pure virtual functions from the base class. 
+*/
 #include <iostream>
 #include "unorderedArrayListType.h"
 
@@ -94,7 +103,7 @@ void unorderedArrayListType::removeAll(int removeItem)
     //run a for loop with the length being the count
     for(int i = 0; i < count; i++)
        remove(removeItem);
-}
+} //end removeAll
 
 void unorderedArrayListType::removeAt(int location)
 {
@@ -117,8 +126,7 @@ void unorderedArrayListType::removeAt(int location)
 
         length--;
     }
-
-}
+} //end removeAt
 
 void unorderedArrayListType::replaceAt(int location, int repItem)
 {

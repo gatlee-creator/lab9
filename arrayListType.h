@@ -1,3 +1,13 @@
+/*
+    Name: Graham Atlee
+    Course: csc1720
+    Date: 10/24/19
+    Location of program: ~/csc1720/Labs/lab9
+
+    This file contains prototypes methods for the ArrayListType.
+    The ArrayListType is an abstract class containing mostly pure virtual
+    functions. 
+*/
 #ifndef H_arrayListType
 #define H_arrayListType
 

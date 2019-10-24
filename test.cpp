@@ -1,3 +1,12 @@
+/*
+    Name: Graham Atlee
+    Course: csc1720
+    Date: 10/24/19
+    Location of program: ~/csc1720/Labs/lab9
+
+    This is a driver program that tests the full capabilities of 
+    the unorderArrayListType class 
+*/
 #include <iostream>
 #include "unorderedArrayListType.h"
 
@@ -13,6 +22,7 @@ int main()
     arrayListPtr = &list1;
     cout << "LIST 1: using insertAt to place a 2 at location 0 " << endl; 
     arrayListPtr->insertAt(0, 2);
+    arrayListPtr->print(); 
     cout << "LIST 1: inserting numbers 6, 4, 8, 12, 10 in accending locations" << endl;
     arrayListPtr->insertAt(1, 6);
     arrayListPtr->insertAt(2, 4);

@@ -1,3 +1,11 @@
+/*
+    Name: Graham Atlee
+    Course: csc1720
+    Date: 10/24/19
+    Location of program: ~/csc1720/Labs/lab9
+
+    This is implemenation code for methods in the ArrayListType.
+*/
 #include <iostream>
 #include "arrayListType.h"
 

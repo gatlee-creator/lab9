@@ -1,3 +1,12 @@
+/*
+    Name: Graham Atlee
+    Course: csc1720
+    Date: 10/24/19
+    Location of program: ~/csc1720/Labs/lab9
+
+    This file contains prototypes methods for the unorderedArrayListType.
+    This class derives from arrayListType. 
+*/
 #ifndef H_unorderedArrayListType
 #define H_unorderedArrayListType
 
